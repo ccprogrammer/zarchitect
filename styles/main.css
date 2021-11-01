@@ -289,7 +289,7 @@ footer .footer-right p {
 }
 
 .portfolio {
-  height: 1400px;
+  min-height: 1400px;
 }
 
 .portfolio h2 {
