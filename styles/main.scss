@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    overflow-x: hidden; 
+    word-wrap: break-word; 
+    font-family: 'poppins', 'sans-serif';
+    min-height: 100%;
+    scroll-behavior: smooth !important;
+}
+/// Mobile 
+@media (max-width: 992px) { 
+    .navbar {
+        .nav-link {
+            text-align: center;
+        }
+    .btn-konsultasi-mobile {
+        width: 100%;
+        color: #f2f2f2;
+        font-size: 1rem;
+        }
+    }
+    header {
+        h1 {
+            font-size: 2.4rem !important;
+        }
+    }
+    .section-portfolio {
+        .card {
+            .btn {
+                width: 100% !important;
+            }
+        }
+    }
+
+    .card-contact {
+        .text {
+            font-size: 0.9rem !important;
+        }
+    }
+    footer {
+        a {
+            font-size: 2rem !important;
+        }
+        p {
+            font-size: 1rem !important;
+        }
+    }
+
+    // Portfolio
+    .portfolio {
+        .port-item {
+                .port-link {
+                font-size: 1rem !important;
+                }
+            }
+    }
+    
+    
+}
+/// Desktop 
+@media (min-width: 992px) { 
+    .section-satu {
+        margin-top: -155px;
+    }
+}
+
+// Asset
+.btn {
+    background-color: #A80808;
+    border-radius: 0;
+    color: #fff;
+
+    &:hover {
+        background-color: #a80808b7 !important;
+        color: #fff !important;
+    }
+    }
+
+// =========== navbar ===========
+.navbar {
+    .navbar-brand {
+    img {
+        width: 150px;
+    }
+}
+.nav-link {
+    color: #292929 !important;
+    font-weight: 500;
+    font-size: 1rem;
+    &.active{
+        color: #A80808 !important;
+    }  
+}
+
+.nav-link:hover {
+    transform: translateY(-5px);
+    transition: .5s;
+}
+.btn-konsultasi-desktop {
+    color: #f2f2f2;
+    background-color: #A80808;
+    border-radius: 0;
+    font-size: 1rem;
+    }
+}
+
+// =========== heading ===========
+header {
+    margin-top: 80px;
+    margin-bottom: 55px;
+    .image-bg-left {
+        background-image: url('../images/Hero-kiri.png');
+        width: 62%;
+        height: 468px;
+        position: absolute;
+        top: 225px;
+        left: 105px;
+        background-repeat: no-repeat;
+    }
+    h1 {
+        font-size: 3.7rem;
+        color: #292929;
+    }
+    h4 {
+        color: #000000;
+        font-weight: 400;
+    }
+    
+        .btn-Layanan {
+            position: relative;
+            color: #fff;
+            height: 2.8rem;
+            font-weight: 500;
+            width: 200px;
+        }
+        .btn-Proyek {
+            position: relative;
+            border-color: #A80808;
+            background-color: transparent;
+            color: #000;
+            height: 2.8rem;
+            font-weight: 500;
+            width: 200px;
+        }
+    .image-bg-right {
+        background-image: url('../images/Hero-kanan.png');
+        width: 700px;
+        height: 730px;
+        background-size: cover;
+        margin-left: -100px;
+    }
+}
+
+// ==================== MAIN ====================
+main {
+    .section-satu {
+        background-image: url('../images/bg-section-satu.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 70px;
+        padding-bottom: 120px;
+        color: #000;
+        h2 {
+            font-size: 2.5rem;
+        }
+        .section-layanan {
+            img {
+                width: 40px;
+            }
+            .card {
+                border: 0;
+                width: 100% !important;
+                min-height: 410px;
+                background-color: rgba(245, 245, 245, 0.4) !important; 
+                .card-header {
+                    background-color: #fff;
+                }
+                .card-title {
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                }
+                .card-text {
+                    font-size: 1.1rem;
+                }
+            }            
+        }
+        .btn-konsultasi {
+            font-weight: 700;
+            margin-top: 30px;
+        }
+        .section-portfolio {
+            padding-top: 70px;
+            padding-bottom: 200px;
+            .card {
+                min-height: 400px;
+                background-size: cover;
+                border-radius: 0;
+                padding: 0;
+                border: 0;
+                margin-right: 0 !important;
+                .btn-card {
+                    border-radius: 0;
+                    border: 0;
+                    background-color: rgba(255, 255, 255, 0.747);
+                    color: #000;
+                    width: 72%;
+                    h6 {
+                        font-size: 1.7rem;
+                        font-weight: 600;
+                        }
+                    p {
+                        font-size: 1.6rem;
+                        }
+                    }
+                }
+            .btn-proyek {
+                color: #fff;
+                font-weight: 500;
+                margin-top: 30px;
+                }
+            }
+    }
+    .card-contact {
+        .card {
+            background-color: #fff8f8;
+            border-radius: 0;
+            margin-top: -120px;
+            border-color: #a8080849;
+        }
+        h5 {
+            text-decoration: underline;
+            color: #292929;
+            font-weight: 600 !important;
+            margin-left: -20px;
+        }
+        img {
+            width: 1.5rem;
+        }
+        .text {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .nmr {
+            white-space:nowrap;
+            margin-left: 76px;
+        }
+    }
+
+    .section-btn-whatsapp {
+        padding-top: 50px;
+        .btn-whatsapp {
+            width: 13rem;
+        }
+        .gratis-konsultasi {
+            img {
+                margin-top: -5px;
+            }
+            margin-left: 20px;
+        }
+    }
+}
+
+footer {
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: #A80808;
+    a {
+        font-size: 2.3rem;
+        color: #FDF7F0;
+    }
+    span {
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    span:last-of-type {
+        margin-top: -15px;
+      }
+    .nmr {
+        margin-right: 88px;
+    }
+
+    .footer-right {
+        p {
+            text-align: start;
+        }
+    }
+    
+}
+
+// ==================== Portfolio ====================
+.portfolio {
+    height: 1400px;
+    h2 {
+        margin-top: 100px;
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: #000;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        li {
+            position:relative;
+            margin: 40px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: #53706F;
+            cursor: pointer;
+            &.active {
+                color: #A80808;
+            }
+        }
+        li:hover {
+            transform: translateY(-10px);
+            transition: .5s;
+        }
+    }
+
+    .section-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+  
+    .card {
+        background-color: #fff8f8;
+        border-radius: 0;
+        max-width: 360px;
+        margin: 40px 10px;
+        padding: 0;
+    }
+    
+    .card-body {
+        padding-bottom: 20px;
+        .card-title {
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: #000;
+        }
+        .card-text {
+            font-size: 1.2rem;
+        }
+      }
+    }
+}

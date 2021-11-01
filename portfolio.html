@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zarchitect</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <!-- =========== navbar =========== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/navbar-brand.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+              <li class="nav-item me-lg-5">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item me-lg-5">
+                <a class="nav-link" href="#">Layanan</a>
+              </li>
+              <li class="nav-item me-lg-5">
+                <a class="nav-link active" href="portfolio.html">Portfolio </a>
+              </li>
+              <li class="nav-item me-lg-5">
+                <a class="nav-link " href="#">Kontak </a>
+              </li>
+            </ul>
+            <!-- Mobile Button -->
+            <form class="d-flex d-lg-none">
+                <button class="btn btn-konsultasi-mobile px-5" type="submit">Konsultasi</button>
+            </form>
+            <!-- Desktop Button -->
+            <form class="d-flex d-none d-lg-block">
+              <button class="btn btn-konsultasi-desktop px-5" type="submit">Konsultasi</button>
+            </form>
+         
+          </div>
+        </div>
+      </nav>
+    <main class="portfolio">
+     <h2 class="text-center px-5">Semua Hasil Kerja Kami</h2>
+      <div class="container">
+        <div class="row portfolio-category">
+          <ul>
+            <li class="list port-item active" data-filter="all">ALL</li>
+            <li class="list port-item" data-filter="arsitektur">ARSITEKTUR</li>
+            <li class="list port-item" data-filter="interior-design">INTERIOR DESIGN</li>
+            <li class="list port-item" data-filter="konstruksi">KONSTRUKSI</li>
+            <li class="list port-item" data-filter="renovasi">RENOVASI</li>
+            <li class="list port-item" data-filter="mep">MEP</li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="portfolio-card">
+        <div class="container">
+          <div class="row section-card">
+      
+              <div class="card house shadow arsitektur">
+                <img src="images/portfolio/portfolio-page/Gambar-kerja.png" class="card-img-top" alt="...">
+                <div class="card-body pt-2">
+                  <div class="arrow text-end mb-2">
+                    <span><img src="images/portfolio/portfolio-page/Arrow - Left.png" alt=""></span> <span><img src="images/portfolio/portfolio-page/Arrow - Right.png" alt=""></span>
+                  </div>
+                  <h6 class="card-title mb-3">Bali House</h6>
+                  <p class="card-text">Lorem ipsum lalas <br>
+                    loremipsum</p>
+                </div>
+              </div>
+
+              <div class="card house shadow arsitektur">
+                <img src="images/portfolio/portfolio-page/Gambar-kerja (1).png" class="card-img-top" alt="...">
+                <div class="card-body pt-2">
+                  <div class="arrow text-end mb-2">
+                    <span><img src="images/portfolio/portfolio-page/Arrow - Left.png" alt=""></span> <span><img src="images/portfolio/portfolio-page/Arrow - Right.png" alt=""></span>
+                  </div>
+                  <h6 class="card-title mb-3">TB - House</h6>
+                  <p class="card-text">Lorem ipsum lalas <br>
+                    loremipsum</p>
+                </div>
+              </div>
+
+              <div class="card house shadow interior-design">
+                <img src="images/portfolio/portfolio-page/Gambar-kerja (2).png" class="card-img-top" alt="...">
+                <div class="card-body pt-2">
+                  <div class="arrow text-end mb-2">
+                    <span><img src="images/portfolio/portfolio-page/Arrow - Left.png" alt=""></span> <span><img src="images/portfolio/portfolio-page/Arrow - Right.png" alt=""></span>
+                  </div>
+                  <h6 class="card-title mb-3">BM - House</h6>
+                  <p class="card-text">Lorem ipsum lalas <br>
+                    loremipsum</p>
+                </div>
+              </div>
+  
+              <div class="card house shadow konstruksi">
+                <img src="images/portfolio/portfolio-page/Gambar-kerja (3).png" class="card-img-top" alt="...">
+                <div class="card-body pt-2">
+                  <div class="arrow text-end mb-2">
+                    <span><img src="images/portfolio/portfolio-page/Arrow - Left.png" alt=""></span> <span><img src="images/portfolio/portfolio-page/Arrow - Right.png" alt=""></span>
+                  </div>
+                  <h6 class="card-title mb-3">Dapur Menteng</h6>
+                  <p class="card-text">Lorem ipsum lalas <br>
+                    loremipsum</p>
+                </div>
+              </div>
+      
+              <div class="card house shadow renovasi">
+                <img src="images/portfolio/portfolio-page/Gambar-kerja (4).png" class="card-img-top" alt="...">
+                <div class="card-body pt-2">
+                  <div class="arrow text-end mb-2">
+                    <span><img src="images/portfolio/portfolio-page/Arrow - Left.png" alt=""></span> <span><img src="images/portfolio/portfolio-page/Arrow - Right.png" alt=""></span>
+                  </div>
+                  <h6 class="card-title mb-3">Saung Sawangan</h6>
+                  <p class="card-text">Lorem ipsum lalas <br>
+                    loremipsum</p>
+                </div>
+              </div>
+
+              <div class="card house shadow mep">
+                <img src="images/portfolio/portfolio-page/Gambar-kerja (5).png" class="card-img-top" alt="...">
+                <div class="card-body pt-2">
+                  <div class="arrow text-end mb-2">
+                    <span><img src="images/portfolio/portfolio-page/Arrow - Left.png" alt=""></span> <span><img src="images/portfolio/portfolio-page/Arrow - Right.png" alt=""></span>
+                  </div>
+                  <h6 class="card-title mb-3">Sukatani</h6>
+                  <p class="card-text">Lorem ipsum lalas <br>
+                    loremipsum</p>
+                </div>
+              </div>
+
+        </div>
+        </div>
+      </section>
+      
+    </main>
+
+<!-- =========== footer =========== -->
+<footer class="text-white">
+  <div class="container text-center text-lg-start">
+    <div class="row">
+      <div class="col-sm-12 col-lg-6 footer-left mb-5">
+        <h5 class="mb-5"><a href="#">Tentang Kami</a></h5>
+        <p>Zarchitect adalah situs penyedia <br> jasa kontraktor bangunan yang <br> berdiri atas dasar </p>
+       <div class="d-flex mt-5 justify-content-center justify-content-lg-start">
+        <div class="thumbnail text-center me-4">
+          <img src="images/footer-ic/Instagram.png" alt="">
+          <p class="mt-2">Instagram</p>
+        </div>
+        <div class="thumbnail text-center me-4">
+          <img src="images/footer-ic/Email.png" alt="">
+          <p class="mt-2">Email</p>
+        </div>
+        <div class="thumbnail text-center">
+          <img src="images/footer-ic/Whatsapp.png" alt="">
+          <p class="mt-2">Whatsapp</p>
+        </div>
+       </div>
+      </div>
+
+      <div class="col-sm-12 col-lg-6 footer-right">
+        <h5 class="mb-5"><a href="#">Lokasi Kantor Kami</a></h5>
+        <p>
+          <span class="me-5"><img src="images/footer-ic/right/footer-map.png" alt=""></span>Depok, Jawa Barat, Indonesia
+        </p>
+        <p>
+          <span class="me-5"><img src="images/footer-ic/right/footer-email.png" alt=""></span>zarstudio03@gmail.com
+        </p>
+        <p>
+          <span class="me-5"><img src="images/footer-ic/right/footer-phone.png" alt=""></span>+62 812-8593-7796
+        </p>
+        <p>
+          <span class="nmr"><img src="#" alt=""></span>+62 812-8593-7796
+        </p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="libraries/jquery/jquery-3.6.0.js"></script>
+<!-- =========== script =========== -->
+<script type="text/javascript"> 
+  // filter portfolio
+  $(document).on('click', '.list', function(){
+    const value = $(this).attr('data-filter');
+      if ( value == 'all'){
+        $('.house').show('1000');
+      } 
+      else {
+        $('.house').not('.' + value).hide('1000');
+        $('.house').filter('.' + value).show('1000');
+      }
+  });
+
+  // class active li
+  $(document).on('click', 'ul li', function(){
+    $(this).addClass('active').siblings().removeClass('active');
+  })
+
+</script>
+</html>
